@@ -1,8 +1,7 @@
 do ->
-  arr = [2, 5, 8]
-  /*по массиву */
-  for num of arr
+  num = 2
+
+  if num > 2
     console.log num
-  /*по значениям */
-  for num in arr
-    console.log num
+  else
+    console.log "error"
