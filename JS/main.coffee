@@ -1,7 +1,5 @@
 do ->
-  num = 2
+  plus = (x, y, rest...) -> x+y
 
-  if num > 2
-    console.log num
-  else
-    console.log "error"
+  plus(1,2)
+
