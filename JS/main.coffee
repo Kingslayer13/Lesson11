@@ -1,7 +1,10 @@
 do ->
- 
 
-  if x is 1
-    console.log 1
-  if x isnt 1
-    console.log 1
+  class Animal
+    constructor: (@name, @lastName) ->
+      console.log(name)
+    move: (meters) ->
+      alert @name + " moved #{meters}m."
+
+  cat = new Animal "Shmetterling"
+  console.log cat.move(5)
