@@ -1,5 +1,5 @@
 do ->
-  plus = (x, y, rest...) -> x+y
+  plus = (x, y, rest...) =>
+  console.log(this)
 
-  plus(1,2)
 
